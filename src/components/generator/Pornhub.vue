@@ -166,7 +166,7 @@ const updateSuffix = (e) => {
 
 const twitter = () => {
   let url = 'https://logoly.netlify.app/';
-  let text = encodeURIComponent(`Built with #LogolyPro, by ${url}`);
+  let text = encodeURIComponent(`Built with Logoly, by ${url}`);
   window.open(`https://twitter.com/intent/tweet?text=${text}`);
 };
 
